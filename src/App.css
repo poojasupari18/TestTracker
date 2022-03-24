@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+.taskbtn{
+
+  background-color: antiquewhite;
+ 
+ 
+
+
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.showtask{
+  display: inline;
+}
+.displaytaskbtn{
+  display: block;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div button{
+  margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  border: solid  rgb(160, 197, 26) 2px;
+}
+
+.AddTask-form{
+  border: solid  rgb(158, 21, 117) 2px;
+}
+
+.displayTask{
+  border: solid  rgb(37, 163, 26) 2px;
+
+}
+
+.App{
+  border: solid  rgb(206, 104, 104) 2px;
+  background-color: gray;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+div{
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-addtask{
+  margin-left: 80%;
+  margin-top:0.001em ;
+ 
 }
