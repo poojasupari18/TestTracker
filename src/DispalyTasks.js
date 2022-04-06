@@ -5,10 +5,10 @@ import App from './App'
 function DispalyTasks({tasks , onDelete}) {
   return (
     <div>
-    
+     <h2> Task List</h2>
         
      { tasks.map((task)=> (
-          <button className='displaytaskbtn' key = {task.id}>  Task {task.id}  {task.name}  <FaTimes  onClick={(e) => onDelete(task.id)}/></button> 
+          <button className='displaytaskbtn' key = {task.id}>   {task.name}  <FaTimes  onClick={(e) => onDelete(task.id)}/></button> 
           
       ))}
 

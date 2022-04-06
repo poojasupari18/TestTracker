@@ -7,8 +7,8 @@ import AddTask  from './AddTask';
 function App() {
 
 
-  const  [tasks, setTasks] = useState( [ {id : 0, name : "pooja"},
-                                       {id : 1 , name : "supari"}
+  const  [tasks, setTasks] = useState( [ {id : 0, name : "Buy a car"},
+                                       {id : 1 , name : "Buy groceries"}
                                       ])
 
   const [ id , setId] = useState(2);

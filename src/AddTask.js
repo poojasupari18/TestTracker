@@ -19,10 +19,13 @@ function AddTask({addtask , incid , rank}) {
   return (
     <div className='AddTask'>
         <form onSubmit={onsubmit} className="AddTask-form">
+          <div className='AddTask-input'>
         <input required type = "text"  placeholder='Add your Task' onChange={(e)=>{setName(e.target.value)}} />
         {/* <input type="number" onChange={(e)=>{setId(e.target.value)}} min="0" max="30"  name='quantity'></input> */}
         <input type="submit" value="Submit"></input>
+        </div>
         </form>
+        
     </div>
   )
 }
